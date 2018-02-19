@@ -53,6 +53,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ButtonClickHandler.cs" />
      <Compile Include="Assets\Scripts\ClickHandler.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\Lab3\Lab3_handlers.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Semester6/UnityNew/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

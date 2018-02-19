@@ -6,7 +6,6 @@ public class ButtonClickHandler : MonoBehaviour {
 
 
     public GameObject boyGameObject;
-    //private Rigidbody2D rBody;
     public Sprite boySprite;
     private SpriteRenderer sRend;
 
@@ -17,8 +16,7 @@ public class ButtonClickHandler : MonoBehaviour {
     }
 	void OnMouseDown()
     {
-        //Debug.Log("Testing");
-        //rBody = boyGameObject.GetComponent<Rigidbody2D>();
+       
         sRend.sprite = boySprite;
 
     }
